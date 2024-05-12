@@ -1,0 +1,345 @@
+/* background global */
+body{
+    background-color: #e7d9b4;
+}
+
+
+/* index css */
+div#content div{
+    display: inline-block;
+    width: 48%;
+}
+
+/*index/infoband position */
+.info_band{
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    color:#ffffff;
+}
+
+
+/* font and bckd */
+
+p.textme{
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+}
+
+p.textmec{
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    color:#ffffff;
+}
+
+h1.headline{
+    font-size: 100px;
+    font-family: "Alegrya Sans", sans-serif;
+    color: #ffffff;
+
+}
+h2.headline{
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    color: #ffffff;
+
+}    
+h3.titre{
+    font-size: 30px;
+    font-family: "Alegrya Sans", sans-serif;
+    color: #ffffff;
+}
+
+
+.date{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Alegrya Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.textme{
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+
+}
+/* pictures asset */
+.id_portrait{
+    clip-path:ellipse(37% 50%);
+}
+
+/* link */
+
+a{
+    font-size: 30px;
+    font-family: "Alegrya Sans", sans-serif;
+    color: #ffffff;
+}
+
+/* bakcground and section */
+.bckrect{
+    padding: 25px;
+    margin: 20px;
+    border-radius: 56px;
+    background-color:#78a890be;
+}
+.bckrectinfo{
+    padding: 25px;
+    margin: 20px;
+    border-radius: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgba(217, 217, 217, 0.10) ;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    font-family: "Alegrya Sans", sans-serif;
+    color: #ffffff;
+}
+
+/* nav section */
+
+
+
+/* formulaire section */
+form {
+    /* Pour centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+  
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border-radius: 56px;
+    background-color:rgba(217, 217, 217, 0.10);
+  }
+  .font{
+    font-size: 20px;
+    font-family: "Alegrya Sans", sans-serif;
+    display: flex;
+    color:#ffffff;
+    padding: 10px;
+  }
+  div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* On s'assure que tous les libellés ont la même taille
+       et sont correctement alignés. */
+    display: inline-block;
+    width: 90px;
+    text-align: left
+  }
+  labelselect {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+  }
+  select {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+  }
+  input,
+  textarea {
+    /* On s'assure que les champs texte ont la même police
+       Par défaut, les zones de texte ont une police à chasse
+       fixe. */
+       font-family: "Alegrya Sans", sans-serif;
+       color:#21675A;
+  
+    /* Taille uniforme pour des champs */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* On utilise la même bordure que pour le formulaire */
+    border: 1px solid #999;
+    border-radius: 10px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* On rajoute une mise en avant pour les éléments avec
+       le focus. */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* On aligne les textes sur plusieurs lignes avec leur
+       libellé. */
+    vertical-align: top;
+  
+    /* On fournit un peut d'espace pour saisir du texte. */
+    height: 5em;
+  
+    /* On permet de redimensionner verticalement. */
+    resize: vertical;
+  }
+  
+  .button {
+    /* On aligne les boutons avec les champs texte. */
+    padding-left: 90px; /* La même taille que les libellés */
+  }
+  
+  button {
+    /* Une marge supplémentaire représentant approximativement
+       le même espace qu'entre les libellés et les champs. */
+    margin-left: 0.5em;
+    margin-bottom: 3em;
+  }
+
+
+
+/* boites */
+  div.contenth div{
+    display: inline-block;
+    width: 48%;
+}
+
+div.contenth div.boxgaucheh{
+    vertical-align:top;
+}
+div.contenth div.boxdroiteh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.borderhobyprint{
+    border-radius: 28px;
+}
+
+.centerhob{
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infomodbil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.borderprofile{
+    border-radius: 239px;
+    width: 100px;
+    height: 100px;
+}
+
+.borderlogo{
+    width: 50px;
+    height: 50px;
+}
+.inline{
+    display: inline-block;
+}
+
+.linelong{
+    width: 100%;
+}
+/* Responsive */
+@media screen and (max-width: 1300px) {
+ 
+
+}   
+
+
+@media screen and (max-width: 1000px) {
+    .contenth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contenth img:nth-of-type(2),.contenth img:nth-of-type(3){
+        display: none;
+    }
+    .mobilemed iframe:nth-of-type(2),.mobilemed iframe:nth-last-of-type(3) {
+        display: none;
+    }
+    .info_band{
+        font-size: 15px;
+    }
+ 
+
+@media screen and (max-width: 1100px) {
+    h1.headline{
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h1.headline{
+        font-size: 35px;
+    }
+    .bckrectinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .navheref a:nth-of-type(1),.navheref a:nth-of-type(3){
+        display: none;
+    }
+    
+    .mobilemed iframe{
+        width: 100%;
+    }
+    .info_band{
+        font-size: 10px;
+    }
+    .id_portrait{
+        width: 100%;
+        height: 100%;
+    }
+}     
+
+@media screen and (max-width: 500px) {
+    .infomodbil p:nth-of-type(1),.infomodbil p:nth-of-type(3){
+        display: none;
+    }
+
+} 
+
+@media screen and (max-width: 400px) {
+    .contenth img{
+        display: none;
+    }
+
+}
+}
