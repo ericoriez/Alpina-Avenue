@@ -1,3 +1,4 @@
+
 // ********************************************************************
 // JE SELECTIONNE ET JE STOCK
 // ********************************************************************
@@ -26,6 +27,11 @@ const colorWhite = document.querySelectorAll('.color-h1');
 
 // la navbar
 const backgroundColorNav = document.querySelector('.bckndhead');
+console.log(backgroundColorNav);
+
+// les sous menu de la navbar
+const backgroundColorSousNav = document.querySelectorAll('.ss-menu-nav');
+console.log(backgroundColorSousNav);
 
 // le footer
 const backgroundColorFooter = document.querySelector('footer');
@@ -47,13 +53,14 @@ switchBox.addEventListener('click', function(){
     // la DIV switch change de couleur de fond
     switchBox.classList.toggle('switch-change');
     // la DIV mainBody change de couleur de fond
-    mainBody.classList.toggle('containerDarkMode-change');
+    mainBody.classList.toggle('containerDarkModeMain-change');
     // j'applique la couleur a tous les elements qui on la class color-h1
     colorWhite.forEach(x => x.classList.toggle('color-white'));
+
     // Change le background en noir de la navbar et du footer
     backgroundColorNav.classList.toggle('containerDarkMode-change');
     backgroundColorFooter.classList.toggle('containerDarkMode-change');
-
+    backgroundColorSousNav.forEach(b => b.classList.toggle('containerDarkMode-change'));
 
     // je modifie le texte du titre si le text et égale a 'DARK MODE' au clique je modifie le text en 'LIGHT MODE' sinon afficher le text 'DARK MODE'   
     if(titre.innerText === "DARK MODE"){
@@ -62,3 +69,7 @@ switchBox.addEventListener('click', function(){
         titre.innerText = "DARK MODE";
     };
 });
+
+
+
+// hello world

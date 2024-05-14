@@ -4,30 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="moncompte.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="member.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Connexion</title>
 </head>
 <body>
-    <div class="compteform">
-        <form action="" method="get" class="connexion">
-            <h1>Bon retour parmis-nous !</h1>
-                <div class="mailmdp">
-                    <ul>
-                        <div class="lesinput">
-                            <li>
-                                <label for="email">Adresse mail</label>
-                                <input type="email" id="email">
-                            </li>
-                            <li>
-                                <label for="mdp">Mot de passe</label>
-                                <input type="password" id="mdp">
-                            </li>
-                        </div>
-                            <li class="libutton">
-                            <button type="submit">Connexion</button>
-                            </li>
-                    </ul>
-                </div>    
-        </form>
-    </div>    
+    <nav class="bckndhead">
+        <ul>
+            <li class="animate__animated animate__zoomIn"><a href="./index.html"><img class="logo" src="img/ALPINAAVENUElogo.png" alt="logo"></a></li>
+            <li class="has-sous-nav">
+                <a href="./propos.html"> A propos<img src="img/Component.png" alt="logo"></a>
+                <ul class="ss-menu-nav">
+                    <li><a href="./member.html">Equipe</a></li>
+                    <li><a href="./propos.html">Notre histoire</a></li>
+                </ul>
+            </li>
+            <li class="has-sous-nav">
+                <a href="./catalogueproduits.html"> Produits<img src="img/Package-open.png" alt="logo"></a>
+                <ul class="ss-menu-nav">
+                    <li><a href="./catalogueSki.html">Skis</a></li>
+                    <li><a href="./catalogueCasque.html">Casque</a></li>
+                    <li><a href="./cataloguechaussure.html">Chaussure</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Mon panier<img src="img/Shopping-cart.png" alt="logo"></a></li>
+            <div class="container-dark-mode">
+                <div class="container-dark-mode-titre">
+                    <h4 class="titre-dark-mode">DARK MODE</h4>
+                </div>
+                <div class="switch">
+                    <i class="fas fa-moon"></i>
+                    <div class="btn-dark-mode"></div>
+                </div>
+            </div>
+        </ul>
+    </nav>
+    <nav class="burger">
+        <ul>
+            <li><a href="index.html"><img class="logo" src="img/ALPINAAVENUElogo.png" alt="logo"></a></li>
+            <li class="bghas-sous-nav">
+                <a href="#"> Menu <img src="img/Vector.png" alt="logo"></a>
+                <ul class="bgss-menu-nav">
+                    <li><a href="./moncompte.html"> Mon Compte <img src="img/User-circle-2.png" alt="logo"></a></li>
+                    <li><a href="propos.html"> Mon panier <img src="img/Shopping-cart.png" alt="logo"></a></li>
+                    <li><a href="./catalogueproduits.html"> Produits <img src="img/Package-open.png" alt="logo"></a></li>
+                    <li><a href="/propos.html"> A propos<img src="img/Component.png" alt="logo"></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="centreform containerMain">
+        <div class="compteform">
+            <form action="" method="get" class="connexion">
+                <h1>Bon retour parmis-nous !</h1>
+                    <div class="mailmdp">
+                            <ul>
+                                <div class="lesinput">
+                                    <li>
+                                        <label for="email">Adresse mail :</label>
+                                        <input type="email" id="email">
+                                    </li>
+                                    <li>
+                                        <label for="mdp">Mot de passe :</label>
+                                        <input type="password" id="mdp">
+                                    </li>
+                                </div>    
+                                    <li class="libutton">
+                                    <button type="submit">Connexion</button>
+                                    </li>
+                            </ul>
+                        </div>    
+                    </div>    
+            </form>
+        </div>
+    </div> 
+    <script src="./script.js"></script>
+
 </body>
 </html>

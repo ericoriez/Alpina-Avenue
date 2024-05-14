@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Alpina Avenue</title>
 </head>
-
 <body>
     <nav class="bckndhead">
         <ul>
@@ -26,14 +25,14 @@
                 </ul>
             </li>
             <li class="has-sous-nav">
-                <a href="./catalogueCasque.html"> Produits<img src="img/Package-open.png" alt="logo"></a>
+                <a href="./catalogueproduits.html"> Produits<img src="img/Package-open.png" alt="logo"></a>
                 <ul class="ss-menu-nav">
                     <li><a href="./catalogueSki.html">Skis</a></li>
                     <li><a href="./catalogueCasque.html">Casque</a></li>
-                    <li><a href="#">Chaussure</a></li>
+                    <li><a href="./cataloguechaussure.html">Chaussure</a></li>
                 </ul>
             </li>
-            <li><a href="formulaire.html">Mon Compte<img src="img/User-circle-2.png" alt="logo"></a></li>
+            <li><a href="./moncompte.html">Mon Compte<img src="img/User-circle-2.png" alt="logo"></a></li>
             <li><a href="propos.html">Mon panier<img src="img/Shopping-cart.png" alt="logo"></a></li>
             <div class="container-dark-mode">
                 <div class="container-dark-mode-titre">
@@ -50,12 +49,21 @@
         <ul>
             <li><a href="#"><img class="logo" src="img/ALPINAAVENUElogo.png" alt="logo"></a></li>
             <li class="bghas-sous-nav">
-                <a href="/burger.html"> Menu <img src="img/Vector.png" alt="logo"></a>
+                <a href="#"> Menu <img src="img/Vector.png" alt="logo"></a>
                 <ul class="bgss-menu-nav">
-                    <li><a href="propos.html"> Mon Compte <img src="img/User-circle-2.png" alt="logo"></a></li>
-                    <li><a href="propos.html"> Mon panier <img src="img/Shopping-cart.png" alt="logo"></a></li>
-                    <li><a href="propos.html"> Produits <img src="img/Package-open.png" alt="logo"></a></li>
+                    <li><a href="./moncompte.html"> Mon Compte <img src="img/User-circle-2.png" alt="logo"></a></li>
+                    <li><a href="#"> Mon panier <img src="img/Shopping-cart.png" alt="logo"></a></li>
+                    <li><a href="catalogueproduits.html"> Produits <img src="img/Package-open.png" alt="logo"></a></li>
                     <li><a href="/propos.html"> A propos<img src="img/Component.png" alt="logo"></a></li>
+                    <div class="container-dark-mode">
+                        <div class="container-dark-mode-titre">
+                            <h4 class="titre-dark-mode">DARK MODE</h4>
+                        </div>
+                        <div class="switch">
+                            <i class="fas fa-moon"></i>
+                            <div class="btn-dark-mode"></div>
+                        </div>
+                    </div>
                 </ul>
             </li>
         </ul>
@@ -106,14 +114,14 @@
             <div class="footbloc">
                 <h3>Besoin d'aide</h3>
                 <ul>
-                    <li>Mon compte</li>
+                    <a class="liencompte" href="./moncompte.html"><li>Mon compte</li></a>
                     <a class="liencontact" href="formulaire.html">
                         <li>Contactez-nous</li>
                     </a>
                 </ul>
             </div>
             <div class="footbloc">
-                <h3>Réseaux sociaux</h3>
+                <h3 class="titresfooter">Réseaux sociaux</h3>
                 <div class="logos">
                     <a href="https://www.facebook.com/?locale=fr_FR"><img class="logosfooter"
                             src="img/logofacebook.png"></a>
@@ -123,13 +131,12 @@
                 </div>
             </div>
             <div class="footbloc">
-                <h3>Mentions légales</h3>
-                <h3>Notre histoire</h3>
+                <h3 class="titresfooter">Mentions légales</h3>
+                <h3 class="titresfooter">Notre histoire</h3>
             </div>
         </div>
     </footer>
 
     <script src="./script.js"></script>
 </body>
-
 </html>

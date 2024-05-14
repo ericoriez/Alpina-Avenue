@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="member.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
     <title>Alpina Avenue</title>
 </head>
 <body>
@@ -22,32 +24,42 @@
                 </ul>
             </li>
             <li class="has-sous-nav">
-                <a href="./propos.html"> Produits<img src="img/Package-open.png" alt="logo"></a>
+                <a href="./catalogueproduits.html"> Produits<img src="img/Package-open.png" alt="logo"></a>
                 <ul class="ss-menu-nav">
                     <li><a href="./catalogueSki.html">Skis</a></li>
                     <li><a href="./catalogueCasque.html">Casque</a></li>
-                    <li><a href="#">Chaussure</a></li>
+                    <li><a href="./cataloguechaussure.html">Chaussure</a></li>
                 </ul>
             </li>
-            <li><a href="propos.html">Mon Compte<img src="img/User-circle-2.png" alt="logo"></a></li>
+            <li><a href="./moncompte.html">Mon Compte<img src="img/User-circle-2.png" alt="logo"></a></li>
             <li><a href="propos.html">Mon panier<img src="img/Shopping-cart.png" alt="logo"></a></li>
+            <div class="container-dark-mode">
+                <div class="container-dark-mode-titre">
+                    <h4 class="titre-dark-mode">DARK MODE</h4>
+                </div>
+                <div class="switch">
+                    <i class="fas fa-moon"></i>
+                    <div class="btn-dark-mode"></div>
+                </div>
+            </div>
         </ul>
+            
     </nav>
     <nav class="burger">
         <ul>
-            <li><a href="landing.html"><img class="logo" src="img/ALPINAAVENUElogo.png" alt="logo"></a></li>
+            <li><a href="index.html"><img class="logo" src="img/ALPINAAVENUElogo.png" alt="logo"></a></li>
             <li class="bghas-sous-nav">
-                <a href="/burger.html"> Menu <img src="img/Vector.png" alt="logo"></a>
+                <a href="#"> Menu <img src="img/Vector.png" alt="logo"></a>
                 <ul class="bgss-menu-nav">
-                    <li><a href="formulaire.html"> Mon Compte <img src="img/User-circle-2.png" alt="logo"></a></li>
+                    <li><a href="./moncompte.html"> Mon Compte <img src="img/User-circle-2.png" alt="logo"></a></li>
                     <li><a href="#"> Mon panier <img src="img/Shopping-cart.png" alt="logo"></a></li>
-                    <li><a href="catalogue.html"> Produits <img src="img/Package-open.png" alt="logo"></a></li>
+                    <li><a href="catalogueproduits.html"> Produits <img src="img/Package-open.png" alt="logo"></a></li>
                     <li><a href="/propos.html"> A propos<img src="img/Component.png" alt="logo"></a></li>
                 </ul>
             </li>
         </ul>
     </nav>
-    <main class="bckpropo">
+    <main class="bckpropo containerMain">
         <h1 class="convictions"> UNE HISTOIRE, DES CONVICTIONS... </h1>
                     <section class="alignpropo">
                         <p class="texteapropos"><strong>Fondé en 1986, la société Alpine avenue est devenue avec le temps une référence dans
@@ -112,14 +124,14 @@
             <div class="footbloc">
                 <h3 class="footermobile">Besoin d'aide</h3>
                 <ul>
-                    <li>Mon compte</li>
+                    <a class="liencompte" href="./moncompte.html"><li>Mon compte</li></a>
                     <a class="liencontact" href="formulaire.html">
                         <li class="liencontact">Contactez-nous</li>
                     </a>
                 </ul>
             </div>
             <div class="footbloc">
-                <h3>Réseaux sociaux</h3>
+                <h3 class="titresfooter">Réseaux sociaux</h3>
                 <div class="logos">
                     <a href="https://www.facebook.com/?locale=fr_FR"><img class="logosfooter"
                             src="img/logofacebook.png"></a>
@@ -129,10 +141,13 @@
                 </div>
             </div>
             <div class="footbloc">
-                <h3>Mentions légales</h3>
-                <h3>Notre histoire</h3>
+                <h3 class="titresfooter">Mentions légales</h3>
+                <h3 class="titresfooter">Notre histoire</h3>
             </div>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
+
 </body>
 </html>

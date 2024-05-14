@@ -1,5 +1,4 @@
 body {
-    display: flex;
     background-color: #E7D9B4;
     justify-content: center;
     height: 600px;
@@ -8,21 +7,34 @@ body {
 .compteform {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #78a890;
     border: solid #78a890;
     border-radius: 30px;
     box-shadow: 15px 15px 20px black;
     font-size: 25px;
+    width: 700px;
     height: 500px;
     color: white;
     padding: 20px;
 }
+.centreform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.compteform * {
+    font-family: "Alegrya sans" sans-serif;
+}
 .mailmdp {
     display: flex;
     justify-content: center;
+    width: 700px;
 }
 .compteform input {
     height: 30px;
+    width: 210px;
     border-radius: 30px;
     border: white;
 }
@@ -32,7 +44,7 @@ body {
 .compteform .libutton {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:end;
     height: 100px;
 }
 .lesinput {
@@ -42,3 +54,57 @@ body {
     justify-content: space-between;
     height: 100px;
 }
+.mailmdp li {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.compteform button {
+    width: 150px;
+    height: 40px;
+    border: solid #E7D9B4;
+    border-radius: 10px;
+    background-color: #E7D9B4;
+    color: white;
+    font-size: 25px;
+}
+button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+.compteform h1 {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+@keyframes exempleAnimation {
+    from {
+      transform: rotate(0deg); /* Début de l'animation */
+    }
+    to {
+      transform: rotate(360deg); /* Fin de l'animation */
+    }
+  }
+  button:hover {
+    animation-name: exempleAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @media screen and (max-width:700px) {
+.centreform * {
+    font-size: 20px;
+}
+.centreform {
+    width: 100%;
+}
+.compteform {
+    height: 430px;
+    width: 450px;
+}
+.burger {
+    width: 100%;
+}
+.mailmdp {
+    width: 100%;
+}
+  }
