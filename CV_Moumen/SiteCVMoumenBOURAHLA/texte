@@ -1,0 +1,5 @@
+h1, 2, 3 max 6 : les titres
+! : écrit automatiquement la trame de début
+<body> contient <header> <footer> <main>
+im + entrée écrit directement img src "chemin de l'image" et alt son nom
+transformer en lien = <a href + lien> + <img> </a> (exemple avec une image sinon <a href + lien><p>blabla</p></a>)

@@ -1,0 +1,5 @@
+wrapper les textes = ctrl +a ensuite alt +z
+
+appliquer une hauteur a un containeur pour pouvoir centrer verticalement avec align-items.
+
+Pour eviter de deborder sur les coter : overflow: auto;  
