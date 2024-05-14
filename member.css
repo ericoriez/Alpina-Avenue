@@ -199,6 +199,11 @@ header {
 
 }
 
+#h2-propos {
+    color: white;
+    font-weight: bold;
+}
+
 .boxmember_button {
     display: flex;
     justify-content: center;
@@ -260,15 +265,14 @@ ul {
 }
 
 .alignpropo {
-    display: flex;
     font-size: 50px;
     justify-content: center;
     margin-left: 20%;
     margin-right: 20%;
-}
+    }
 
 .borderproimg {
-
+    width: 400px;
     border-style: groove;
     border-color: #78a890;
     border-radius: 25px;
@@ -733,6 +737,10 @@ nav {
     #container_photo_member>figure {
         margin-top: 20px;
     }
+
+    /* .borderproimg {
+        width: 600px;
+    } */
 }
 @media screen and (max-width: 1200px) {
 
@@ -814,6 +822,10 @@ nav {
     .styleform {
         height: 1000px;
     }
+
+    /* .borderproimg {
+        width: 500px;
+    } */
 }
 
     .footbloc {
