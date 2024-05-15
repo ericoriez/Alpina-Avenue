@@ -1,0 +1,169 @@
+/* --------- HEADER---------*/
+.bckndhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color:#78a890;
+}
+.bckndsite{
+    background-color:#e7d9b4;
+}
+.police {
+    font-family: "Alegreya Sans", sans-serif;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+  }
+  .alegreya-sans-medium {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .logo{
+    width: 140px;
+    height: 160px;
+    border-radius: 239px;
+  }
+  .menuflexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .burgerflexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.menuflexbox:first-of-type img{
+    width: 100px;
+    height: 100px;
+}
+a {
+    font-family: "Alegrya Sans", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+.menuflexbox{
+    display: none;
+}
+}
+
+@media screen and (min-width: 700px) {
+    .burgerflexbox{
+        display: none;
+    }
+}
+
+.burger{
+  background-color: #78a890;
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+
+.burgerL{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  text-align: center;
+}
+.burgerD{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.burgerbcknd{
+  background-color: #e7d9b4;
+}
+
+header{
+    background-color: #78a890;
+}
+body{
+    background-color:#E7D9B4;
+    font-family: "Alegreya Sans", sans-serif;
+}
+section{
+    text-align: center;
+
+}
+#members_h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+.boxmember_button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.memberbutton {
+    border: #78a890 solid 2px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #78a890;
+    font-size: large;
+}
+p{
+    text-align: justify;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(14, 13, 13);
+}
+h1{
+    text-align: center;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgb(20, 19, 19);
+}
+.police{
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;   
+    color: rgb(255, 255, 255);
+}
+
+/* -----------FOOTER----------*/
+
+
+#contenu_footer{
+    display: flex;
+    align-items: bottom;
+    background-color: #78a890;
+    position: absolute;
+    bottom: 0%;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+/* ---------- Body  CSS---------- */
+
+
+
+
+    
+    
+
+
+  
+
+   
+
+  
+
+
+
+
+
+
+ 

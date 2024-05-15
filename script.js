@@ -27,11 +27,11 @@ const colorWhite = document.querySelectorAll('.color-h1');
 
 // la navbar
 const backgroundColorNav = document.querySelector('.bckndhead');
-console.log(backgroundColorNav);
+// console.log(backgroundColorNav);
 
 // les sous menu de la navbar
 const backgroundColorSousNav = document.querySelectorAll('.ss-menu-nav');
-console.log(backgroundColorSousNav);
+// console.log(backgroundColorSousNav);
 
 // le footer
 const backgroundColorFooter = document.querySelector('footer');

@@ -1,6 +1,11 @@
 body{
     background-color:#E7D9B4;
+<<<<<<< HEAD
     color : rgb(255, 254, 254);
+=======
+    background-color: ;
+    color : rgb(255, 254, 254)
+>>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
 }
 #container_h1{
     display: flex;
@@ -11,7 +16,12 @@ body{
     text-align: center;
     color: darkmagenta;
     font-family: "Oswald", sans-serif;
+<<<<<<< HEAD
     font-weight:bold; 
+=======
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+>>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
     font-style: normal;   
 }
 .container-principal{ 
@@ -24,12 +34,15 @@ h2{
     text-align: center;
     
 }
+<<<<<<< HEAD
 h5{
   font-size: larger;
   font-weight: 700;
   color: blue;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+=======
+>>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
 .container_h2{
     display: flex;
     align-items: center;
@@ -88,11 +101,23 @@ h5{
 #container_S2{
     width: 100%;
     border-radius: 25PX;
+<<<<<<< HEAD
     font-style: normal;
     background-color:#78a890;
     text-align: center;
     font-family: "Balthazar";
 
+=======
+    font-family: "Sevillana", cursive;
+    font-style: normal;
+    background-color:#78a890;
+    text-align: center;
+   
+}
+ 
+{
+    font-family: "Balthazar";
+>>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
 }
 h2{
     display: flex;
@@ -188,7 +213,11 @@ form {
     .video_snowboard{
       width: 80%;
     }
+<<<<<<< HEAD
   }
+=======
+  };
+>>>>>>> 195c7c278ebf7fa2db04ee948dc9faaa936136ad
   
 
 
