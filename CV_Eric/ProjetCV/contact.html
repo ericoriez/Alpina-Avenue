@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="/CV_Eric/ProjetCV/contact.css">
+</head>
+<body>
+    <div id="container_form">
+        <form action="/index.html" method="get">
+            <ul>
+                <li>
+                    <label for="firstName">Nom</label>
+                    <input type="text" name="firstName" id="firstName" required="required">
+                </li>
+                <li>
+                    <label for="lastName">Prénom</label>
+                    <input type="text" name="lastName" id="lastName" required="required">
+                </li>
+                <li>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <li>
+                    <label for="sujet">Sujet</label>
+                    <input type="text" name="sujet" id="sujet" required="required">
+                </li>
+                <li>
+                    <label for="text">Message</label>
+                    <textarea name="text" id="text" cols="70" rows="10" required="required"></textarea>
+                </li>
+            </ul>
+            <fieldset id="container_checkbox">
+                <ul>
+                    <li>
+                        <label for="stage">Stage</label>
+                        <input type="radio" id="stage" name="input_radio" value="stage" >
+                    </li>
+                    <li>
+                        <label for="alternance">Alternance</label>
+                        <input type="radio" id="alternance" name="input_radio" value="alternance" >
+                    </li>
+                </ul>
+            </fieldset>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
